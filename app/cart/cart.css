@@ -1,12 +1,8 @@
-.cars__parent {
+.cart__parent {
   width: 100%;
   height: auto;
   min-height: 300px;
-  border: 1px solid black;
   box-sizing: border-box;
+  border: 1px solid black;
   margin-top: 2px;
-}
-
-.cars__child {
-  padding: 10px;
 }

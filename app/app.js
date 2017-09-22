@@ -1,1 +1,1 @@
-angular.module('fourWheels', []);
+angular.module('swagShop', []);

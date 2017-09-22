@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="fourWheels">
+<html lang="en" ng-app="swagShop">
   <head>
-    <title>Four Wheels</title>
+    <title>Swag Shop</title>
     
     <!-- META INFO -->
     <meta charset="UTF-8">
@@ -15,19 +15,12 @@
     <link rel="stylesheet" href="styles.css">
 
     <!-- Component Styles -->
-    <link rel="stylesheet" href="app/header/header.css" />
-    <link rel="stylesheet" href="app/cars/cars.css" />
-    <link rel="stylesheet" href="app/footer/footer.css" />
+    <link rel="stylesheet" href="app/cart/cart.css" />
+    <link rel="stylesheet" href="app/detailed/detailed.css" />
+    <link rel="stylesheet" href="app/list/list.css" />
   </head>
 
   <body ng-controller="mainCtrl">
-
-    <header title="'Four Wheels'"></header>
-
-    <cars></cars>
-
-    <footer name="name" email="email" on-contact="contact()"></footer>
-
 
     <!-- Including angular and ui-router then our javascript files. ORDER MATTERS -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.js"></script>
@@ -37,10 +30,8 @@
     <script src="app/main.service.js"></script>
     <script src="app/main.controller.js"></script>
 
-    <script src="app/header/header.component.js"></script>
-
-    <script src="app/cars/cars.component.js"></script>
-
-    <script src="app/footer/footer.component.js"></script>
+    <script src="app/cart/cart.component.js"></script>
+    <script src="app/detailed/detailed.component.js"></script>
+    <script src="app/list/list.component.js"></script>
   </body>
 </html>
