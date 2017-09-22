@@ -1,5 +1,8 @@
 <div class="list__parent">
   <div class="list__child">
-
+    List here {{ listCtrl.swag }}
+    <br />
+    <br />
+    <swag ng-repeat="item in listCtrl.swag" item="item" on-add="listCtrl.addToCart( item.id )"></swag>
   </div>
 </div>

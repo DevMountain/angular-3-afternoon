@@ -1,5 +1,15 @@
 <div class="cart__parent">
   <div class="cart__child">
-   
+    <div ng-if="cartCtrl.total" class="cart__with-items">
+      {{ cartCtrl.cart }}
+      <br />
+      <br />
+      <span>Total: ${{ cartCtrl.total }}</span>
+      <button ng-click="cartCtrl.checkout()">Checkout</button>
+    </div>
+
+    <div ng-if="!cartCtrl.total" class="cart__without-items">
+      <span>Nothing in your cart</span>
+    </div>
   </div>
 </div>

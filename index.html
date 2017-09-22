@@ -16,22 +16,26 @@
 
     <!-- Component Styles -->
     <link rel="stylesheet" href="app/cart/cart.css" />
-    <link rel="stylesheet" href="app/detailed/detailed.css" />
+    <link rel="stylesheet" href="app/details/details.css" />
     <link rel="stylesheet" href="app/list/list.css" />
   </head>
 
-  <body ng-controller="mainCtrl">
+  <body>
+
+    <ui-view></ui-view>
 
     <!-- Including angular and ui-router then our javascript files. ORDER MATTERS -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js"></script>
 
     <!--Our Custom Script Files-->
     <script src="app/app.js"></script>
-    <script src="app/main.service.js"></script>
-    <script src="app/main.controller.js"></script>
+    <script src="app/services/swag.service.js"></script>
+    <script src="app/services/cart.service.js"></script>
 
     <script src="app/cart/cart.component.js"></script>
-    <script src="app/detailed/detailed.component.js"></script>
+    <script src="app/details/details.component.js"></script>
     <script src="app/list/list.component.js"></script>
+    <script src="app/list/swag/swag.component.js"></script>
   </body>
 </html>
