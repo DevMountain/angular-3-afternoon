@@ -1,7 +1,7 @@
 <div class="cart__parent">
   <div class="cart__child">
     <div ng-if="cartCtrl.total" class="cart__with-items">
-      {{ cartCtrl.cart }}
+      <swag ng-repeat="item in cartCtrl.cart track by $index" item="item" cart-view="true" index="$index"></swag>
       <br />
       <br />
       <span>Total: ${{ cartCtrl.total }}</span>

@@ -4,9 +4,5 @@ angular.module('swagShop').component('list', {
 
   controller: function( swagSrvc ) {
     this.swag = swagSrvc.swag;
-    
-    this.addToCart = function( id ) {
-      console.log( id );
-    };
   }
 });

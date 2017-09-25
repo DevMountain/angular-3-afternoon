@@ -6,6 +6,11 @@ angular.module('swagShop').service('cartSrvc', function() {
     return cart;
   };
 
+  this.remove = function( index ) {
+    cart.splice( index, 1 );
+    return cart;
+  };
+
   this.checkout = function() {
     cart = [];
     return cart;
