@@ -3,6 +3,10 @@
     List here {{ listCtrl.swag }}
     <br />
     <br />
-    <swag ng-repeat="item in listCtrl.swag" item="item" cart-view="false"></swag>
+    <swag ng-repeat="item in listCtrl.swag"
+          item="item"
+          action="listCtrl.goToDetails(item.id)"
+          action-label="Details">
+    </swag>
   </div>
 </div>

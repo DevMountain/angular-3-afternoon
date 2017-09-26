@@ -5,15 +5,17 @@ angular.module('swagShop').component('cart', {
   controller: function( cartSrvc ) {
     this.cart = cartSrvc.currentCart();
 
-    if ( this.cart.length > 0 ) {
-      this.total = this.cart.reduce( function( previous, next ) { 
-        return previous.price || previous + next.price; 
-      });
-    }
+    this.total = function(){
+      return this.cart.reduce((total, current ) => total + current.price, 0);
+    };
 
     this.checkout = function() {
       cartSrvc.checkout();
       this.total = null;
+    };
+
+    this.removeItem = function(index){
+      cartSrvc.remove(index);
     };
   }
 });

@@ -3,8 +3,8 @@ angular.module('swagShop').component('swag', {
   controllerAs: 'swagCtrl',
   bindings: {
     item: '<',
-    cartView: '<',
-    index: '<'
+    action: '&',
+    actionLabel: '@'
   },
 
   controller: function( cartSrvc ) {

@@ -1,5 +1,4 @@
 <div>
   {{ swagCtrl.item }}
-  <button ng-if="!swagCtrl.cartView" ui-sref="details({ id: '{{ swagCtrl.item.id }}' })">Details</button>
-  <button ng-if="swagCtrl.cartView" ng-click="swagCtrl.remove( swagCtrl.index )">Remove from Cart</button>
+  <button  ng-click="swagCtrl.action()">{{swagCtrl.actionLabel}}</button>
 </div>
