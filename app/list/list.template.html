@@ -1,12 +1,14 @@
 <div class="list__parent">
   <div class="list__child">
-    List here {{ listCtrl.swag }}
-    <br />
-    <br />
-    <swag ng-repeat="item in listCtrl.swag"
-          item="item"
-          action="listCtrl.goToDetails(item.id)"
-          action-label="Details">
-    </swag>
+    <span class="list__header">Browse Swag</span>
+    
+    <div class="list__swag-container">
+      <swag ng-repeat="item in listCtrl.swag"
+            item="item"
+            action="listCtrl.goToDetails(item.id)"
+            action-label="Details">
+      </swag>
+    </div>
+    
   </div>
 </div>

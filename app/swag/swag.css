@@ -1,0 +1,40 @@
+.swag-list__container {
+  width: 224px;
+  height: 114px;
+  border-radius: 8px;
+  background-color: #e8e9eb;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  margin-right: 16px;
+  cursor: pointer;
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.swag-list__content {
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+}
+
+.swag-list__content-top {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+}
+
+.swag-list__content-top h4 {
+  font-weight: bold;
+}
+
+
+.swag-list__content-bottom {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+}

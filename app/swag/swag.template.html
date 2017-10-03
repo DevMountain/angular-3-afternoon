@@ -1,4 +1,18 @@
-<div>
-  {{ swagCtrl.item }}
-  <button  ng-click="swagCtrl.action()">{{swagCtrl.actionLabel}}</button>
+<div class="swag-list__container">
+  <div class="swag-list__content">
+
+    <div class="swag-list__content-top">
+      <h4>{{ swagCtrl.item.title }}</h4>
+      <span>{{ swagCtrl.item.size }}</span>
+    </div>
+
+    <div class="swag-list__content-bottom">
+      <span>{{ swagCtrl.item.color }}</span>
+      <span>${{ swagCtrl.item.price}}</span>
+    </div>
+
+  </div>
 </div>
+
+
+<!-- <button ng-click="swagCtrl.action()">{{swagCtrl.actionLabel}}</button> -->

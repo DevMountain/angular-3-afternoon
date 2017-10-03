@@ -1,12 +1,26 @@
 .list__parent {
   width: 100%;
   height: auto;
-  min-height: 300px;
-  border: 1px solid black;
+  min-height: calc( 100vh - 65px );
   box-sizing: border-box;
-  margin-top: 2px;
+  padding-top: 16px;
 }
 
 .list__child {
-  padding: 10px;
+  margin: 0px 232px;
+  background-color: #FFF;
+  min-height: calc( 100vh - 65px + 16px );
+  padding: 42px 120px;
+}
+
+.list__header {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 40px;
+}
+
+.list__swag-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 27px;
 }

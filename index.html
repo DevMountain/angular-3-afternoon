@@ -18,17 +18,22 @@
     <link rel="stylesheet" href="app/cart/cart.css" />
     <link rel="stylesheet" href="app/details/details.css" />
     <link rel="stylesheet" href="app/list/list.css" />
+    <link rel="stylesheet" href="app/swag/swag.css" />
   </head>
 
   <body>
 
     <header>
-      Swag Shop
-      <button ui-sref="list">Browse Swag</button>
-      <button ui-sref="cart">View Cart</button>
+      <div class="header-content">
+        Swag Shop
+        <button ui-sref="list">Browse Swag</button>
+        <button ui-sref="cart">View Cart</button>
+      </div>
     </header>
 
-    <ui-view></ui-view>
+    <div class="view-container">
+      <ui-view></ui-view>
+    </div>
 
     <!-- Including angular and ui-router then our javascript files. ORDER MATTERS -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.js"></script>

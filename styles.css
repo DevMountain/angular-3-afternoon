@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Open+Sans');
+
+body {
+  background-color:#08a4bd;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+header {
+  height: 65px;
+  min-width: 100%;
+  background-color: #446df6;
+}
+
+.header-content {
+  height: 100%;
+  margin: 0px 232px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid #FFF;
+}
+
+.view-container {
+  background-image: linear-gradient(to top, rgba(56, 95, 255, 0.0), #446df6);
+  height: 473px;
+}
