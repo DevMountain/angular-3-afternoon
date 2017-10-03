@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Open+Sans|Merriweather+Sans');
 
 body {
   background-color:#08a4bd;
@@ -19,6 +19,51 @@ header {
   align-items: center;
   box-sizing: border-box;
   border-bottom: 1px solid #FFF;
+  position: relative;
+}
+
+.header-content span {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 39px;
+  color: #FFF;
+  margin-left: 20px;
+  margin-right: 32px;
+}
+
+.header-content button {
+  height: 100%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-right: 20px;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 13px;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.cart-button {
+  height: 100%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-right: 20px;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 16px;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+}
+
+.cart-icon {
+  width: 22px;
+	height: 16px;
 }
 
 .view-container {

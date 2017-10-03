@@ -6,7 +6,7 @@ angular.module('swagShop').component('list', {
     this.swag = swagSrvc.swag;
 
     this.goToDetails = function (id){
-      $state.go('details', {id:id})
-    }
+      $state.go('details', {id:id});
+    };
   }
 });

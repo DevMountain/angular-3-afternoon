@@ -1,6 +1,6 @@
 .swag-list__container {
   width: 224px;
-  height: 114px;
+  height: auto;
   border-radius: 8px;
   background-color: #e8e9eb;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
@@ -17,7 +17,7 @@
 }
 
 .swag-list__content-top {
-  height: 50%;
+  height: 41px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -31,7 +31,7 @@
 
 
 .swag-list__content-bottom {
-  height: 50%;
+  height: 41px;
   width: 100%;
   display: flex;
   justify-content: space-between;
