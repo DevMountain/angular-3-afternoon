@@ -6,6 +6,8 @@ In this project, we'll make use of Angular components and routing to complete a 
 
 Live Example: <a href="https://devmountain.github.io/angular-3-afternoon/#!/">Click Me!</a>
 
+<img src="https://github.com/DevMountain/angular-3-afternoon/blob/solution/readme-assets/1.png" />
+
 ## Step 1
 
 ### Summary
