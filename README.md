@@ -12,6 +12,11 @@ Live Example: <a href="https://devmountain.github.io/angular-3-afternoon/#!/">Cl
 
 <img src="https://github.com/DevMountain/angular-3-afternoon/blob/solution/readme-assets/1.png" />
 
+## Setup
+
+* Run `npm i`.
+* Run `npm run dev` to start the development server.
+
 ## Step 1
 
 ### Summary
