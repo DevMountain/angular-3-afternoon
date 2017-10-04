@@ -105,7 +105,7 @@ In this step, we'll add the details component as an available route.
 
 ### Summary
 
-In this step, we'll build out the cart component. The cart component is responsible for displaying all swag that is current in the cart. It will also provide a user with the option to checkout, which in this case should empty the user's cart and clear the total. This component will make use of the swag component to display swag that is in the cart.
+In this step, we'll build out the cart component. The cart component is responsible for displaying all swag that is currently in the cart. It will also provide a user with the option to checkout, which in this case should empty the user's cart. This component will make use of the swag component to display the swag that is in the cart.
 
 ### Instructions
 
