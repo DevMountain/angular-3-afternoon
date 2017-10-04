@@ -4,6 +4,8 @@
 
 In this project, we'll make use of Angular components and routing to complete a website that sells swag. The file structure has already been setup for you and should feel very familiar to the mini project. There are also two services that have been built out for you. One is the swag service, it holds all the data for swag that is available for purchase. The other service holds all the cart functionality. Take a minute to understand how the cart works before beginning the project.
 
+Live Example: <a href="https://devmountain.github.io/angular-3-afternoon/#!/">Click Me!</a>
+
 ## Step 1
 
 ### Summary
