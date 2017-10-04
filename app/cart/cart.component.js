@@ -5,13 +5,12 @@ angular.module('swagShop').component('cart', {
   controller: function( cartSrvc ) {
     this.cart = cartSrvc.currentCart();
 
-    this.total = function(){
+    this.total = function() {
       return this.cart.reduce((total, current ) => total + current.price, 0);
     };
 
     this.checkout = function() {
-      cartSrvc.checkout();
-      this.total = null;
+      this.cart = cartSrvc.checkout();
     };
 
     this.removeItem = function(index){
