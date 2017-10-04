@@ -5,9 +5,10 @@
   background-color: #e8e9eb;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
   margin-right: 16px;
-  cursor: pointer;
   display: flex;
   font-family: 'Open Sans', sans-serif;
+  margin-bottom: 16px;
+  position: relative;
 }
 
 .swag-list__content {
@@ -29,7 +30,6 @@
   font-weight: bold;
 }
 
-
 .swag-list__content-bottom {
   height: 41px;
   width: 100%;
@@ -37,4 +37,21 @@
   justify-content: space-between;
   align-items: center;
   font-size: 24px;
+}
+
+.swag__btn {
+  border: none;
+  font-family: 'Merriweather Sans', sans-serif;
+  padding: 16px;
+  margin-top: 16px;
+  color: #FFF;
+  font-size: 18px;
+}
+
+.swag__btn-details {
+  background-color: #009db8;
+}
+
+.swag__btn-remove {
+  background-color: #ef476f;
 }
