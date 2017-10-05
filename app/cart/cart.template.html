@@ -1,7 +1,7 @@
 <div class="cart__parent">
   <div class="cart__child">
     
-    <div ng-if="cartCtrl.total() !== 0" class="cart__with-items">
+    <div ng-if="cartCtrl.cart.length > 0" class="cart__with-items">
       <div class="cart__top">
         <h4 class="cart__header">Cart</h4>
 
@@ -21,7 +21,7 @@
       </div>
     </div>
 
-    <div ng-if="cartCtrl.total() === 0" class="cart__without-items">
+    <div ng-if="cartCtrl.cart.length === 0" class="cart__without-items">
       <span>Nothing in your cart</span>
     </div>
 
