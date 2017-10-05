@@ -1,7 +1,3 @@
-function detailedController() {
-
-}
-
 angular.module('swagShop').component('detailsComponent', {
   templateUrl: 'app/details/details.template.html',
   controllerAs: 'detailsCtrl',
