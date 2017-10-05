@@ -351,7 +351,7 @@ We won't be able to visually test that `addToCart` is working correctly. However
 
 ### Summary
 
-In this step, we'll build out the cart component. The cart component is responsible for displaying all swag that is currently in the cart or displaying that the caert is empty. It will also provide a user with the option to checkout, which in this case should empty the user's cart. This component will make use of the swag component to display the swag that is in the cart.
+In this step, we'll build out the cart component. The cart component is responsible for displaying all swag that is currently in the cart or displaying that the cart is empty. It will also provide a user with the option to checkout, which in this case should empty the user's cart. This component will make use of the swag component to display the swag that is in the cart.
 
 Remember that the swag component's action and action label are dynamic. On the cart view, we want the action to remove the swag from the cart and the label to be `'remove'`.
 
@@ -422,7 +422,8 @@ In this step, we'll complete the template for the `cart.template.html` and link 
 * Locate the `Swag Here` comment:
   * Render the swag component and be sure to include all its necessary bindings.
   * The swag component should use an `ng-repeat` for every swag object in the cart.
-  * The action label should equal `'remove'` and remember to include the `$index` for the action.
+    * This `ng-repeat` should also `track by` `$index`.
+  * The action label should equal `'remove'` and remember to include the `$index` for the action's argument.
 * Open `index.html`.
 * Add a new `script` tag for the cart component
 
