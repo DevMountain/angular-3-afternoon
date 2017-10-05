@@ -5,17 +5,5 @@ angular.module('swagShop').component('swag', {
     item: '<',
     action: '&',
     actionLabel: '@'
-  },
-
-  controller: function( cartSrvc ) {
-
-    this.add = function( item ) {
-      cartSrvc.add( item );
-    };
-
-    this.remove = function( index ) {
-      cartSrvc.remove( index );
-    };
-
   }
 });
