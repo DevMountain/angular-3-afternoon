@@ -8,7 +8,9 @@ In addition to the services, the Angular application has routing pre-built for y
 
 It is imperative to feel comfortable with the existing code base before attempting this project. If you are having trouble, feel free to ask a fellow classmate or one of your mentors. 
 
-Live Example: <a href="https://devmountain.github.io/angular-3-afternoon/#!/">Click Me!</a>
+# Live Example
+
+<a href="https://devmountain.github.io/angular-3-afternoon/#!/">Click Me!</a>
 
 <img src="https://github.com/DevMountain/angular-3-afternoon/blob/solution/readme-assets/1.png" />
 
